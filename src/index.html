@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>&lt;/salt&gt; :: ToDo</title>
+  <link rel="stylesheet" type="text/css" href="./style/todo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="./js/todo.js"></script>
+</head>
+
+<body id="body">
+  <header>
+    <h1 class="header__title">TO DO LIST</h1>
+  </header>
+
+  <main class="todo" id="todo">
+    <section class="todo__register">
+      <h1 class="register__heading">Register New ToDo</h1>
+
+      <form class="register__form" id="form" method="post">
+        <label class="register__label" for="title">Title</label><br>
+        <input class="register__input" id="title" type="text" id="title"><br>
+        <label class="register__label" for="description">Description</label><br>
+        <input class="register__input" id="description" type="text" id="description"><br>
+        <input class="register__button" id="add_button" type="submit" value="Add">
+      </form>
+    </section>
+
+    <section class="todo__tasks" id="todo__tasks"></section>
+  </main>
+
+  <footer>©Johnny Kan</footer>
+</body>
+
+</html>

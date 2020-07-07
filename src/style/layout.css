@@ -1,0 +1,16 @@
+header {
+  text-align: center;
+  margin: 2rem 0;
+}
+body {
+  font-family: 'Taviraj', serif;
+  width: 50vw;
+  margin: auto;
+  background: linear-gradient(rgba(0, 0, 0, 0.493), rgba(0, 0, 0, 0.493)), url("background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+footer {
+  text-align: center;
+  margin: 1rem 0;
+}

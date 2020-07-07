@@ -1,0 +1,37 @@
+.register__button:hover {
+  background-color: rgb(88, 88, 88);
+  border: 1px solid rgb(88, 88, 88);
+}
+
+.todo__card.active {
+  background-color: rgb(154, 235, 210);
+  order: 2;
+}
+.todo__card.active:hover {
+  background-color: rgb(85, 179, 149);
+}
+.todo__card.done {
+  background-color: rgb(192, 192, 192);
+  order: 1;
+}
+.todo__card.done:hover {
+  background-color: rgb(105, 105, 105);
+}
+.todo__card.done:hover > .todo__text.done {
+  color: rgb(196, 196, 196);
+}
+.todo__text.done {
+  text-decoration: line-through;
+  font-style: italic;
+  color: rgb(97, 96, 96);
+}
+.todo__remove_btn:hover {
+  background-color: rgb(139, 0, 0);
+  border: 1px solid rgb(139, 0, 0);
+}
+.todo__remove_btn.active {
+  visibility: hidden;
+}
+.todo__remove_btn.done {
+  visibility: visible;
+}

@@ -1,0 +1,50 @@
+@import url("normalize.css");
+@import url("base.css");
+@import url("layout.css");
+@import url("module.css");
+@import url("state.css");
+
+
+@media only screen and (max-width: 1024px) {
+  body {
+    width: 66vw;
+    margin: auto;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  header {
+    margin: 1rem 0 1.3rem;
+  }
+  body {
+    width: 90vw;
+    margin: auto;
+  }
+
+
+  .header__title {
+    font-size: 1.5rem;
+  }
+
+  .register__heading {
+    font-size: 1.2rem;
+  }
+  .register__form {
+    padding: 0 1.2rem 0.7rem;
+  }
+  .register__input {
+    margin: 0 0 0.5rem 0;
+  }
+
+  .todo__card  {
+    padding: 0.7rem 1.2rem;
+  }
+  .todo__title {
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+  }
+  .todo__description {
+    margin: 0 0 0.5rem;
+  }
+}

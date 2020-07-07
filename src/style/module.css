@@ -1,0 +1,65 @@
+.todo__register {
+  background-color: #FFA2A6;
+  border-radius: 15px;
+}
+.register__heading {
+  background-color: white;
+  border: 2px solid #FFA2A6;
+  border-radius: 20px;
+  width: fit-content;
+  margin: 0 1.2rem;
+  padding: 0.2rem 0.5rem;
+  position: relative;
+  top: -1rem;
+  font-size: 1.5rem;
+}
+.register__form {
+  padding: 0 1.2rem 0.8rem;
+  width: 100%;
+  display: inline-block;
+}
+.register__label {
+  font-size: 1.1rem;
+}
+.register__input {
+  margin: 0 0 1rem 0;
+  width: 100%;
+}
+.register__button {
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+  border-radius: 20px;
+  float: right;
+}
+
+.todo__tasks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+.todo__card  {
+  width: 100%;
+  height: initial;
+  border-radius: 15px;
+  margin: 0.5rem 0 0;
+  padding: 1rem 1.2rem;
+}
+.todo__title {
+  font-size: 1.7rem;
+  text-transform: capitalize;
+}
+.todo__description {
+  font-size: 1.1rem;
+  margin: 0 0 1rem;
+}
+.todo__description::first-letter {
+  text-transform: capitalize;
+}
+.todo__remove_btn {
+  background-color: red;
+  color: white;
+  border: 1px solid red;
+  border-radius: 20px;
+  float: right;
+}
